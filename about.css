@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(141, 139, 217, 0.5);
+  transition: all 0.2s ease;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #3a3a3a;
+  background: #fff;
+  min-height: 100vh;
+  padding: 10rem 0;
+  transition: background 0.5s ease;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* GENERAL */
+
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+}
+
+p {
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+a {
+  color: #3a3a3a;
+  text-decoration-color: #4f46e5;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.4rem;
+
+  background-color: #0cd1a2;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn svg {
+  width: 2.4rem;
+  margin-right: 1.2rem;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0bbc92;
+}
+
+section {
+  margin-bottom: 4.8rem;
+}
+
+/* CREATOR */
+
+.primary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.primary-header h1 {
+  margin-bottom: 0;
+}
+
+i,
+svg {
+  font-size: 4.4rem;
+}
+
+.name {
+  color: #4f46e5;
+  margin-bottom: 1.2rem;
+}
+
+.sub-header {
+  color: #727272;
+  font-weight: 500;
+}
+
+/* FOOTER */
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 40%;
+  }
+}
